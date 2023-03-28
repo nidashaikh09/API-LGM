@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Poppins:wght@600&display=swap');
+*{
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+header{
+    height: 80px;
+    width: 100vw;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-name{
+    height: 80px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+#btn{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(240, 244, 0);
+    color: rgb(21, 21, 21);
+    font-weight: bold;
+    border-radius: 10px;
+    
+
+}
+.btn-cont{
+    height: 80px;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+main{
+    background-color: black;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cont{
+    background-color: rgb(21, 21, 21);
+    min-width: 100px;
+    min-height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+img{
+    height: 150px;
+    border-radius: 10px;
+}
+.info{
+    color: white;
+    padding-left: 20px;
+}
+.title{
+    color: rgb(240, 244, 0);
+    font-weight: bold;
+}
+.info-cont{
+    min-height: 150px;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
